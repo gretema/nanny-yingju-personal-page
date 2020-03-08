@@ -1,5 +1,7 @@
 import Vue from 'vue';
 import MetaInfo from 'vue-meta-info';
+import 'bootstrap';
+
 import App from './App.vue';
 import router from './router';
 
