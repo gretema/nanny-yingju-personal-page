@@ -1,0 +1,10 @@
+.carousel-item-height {
+  height: 550px;
+}
+
+.carousel-caption{
+  background-color: rgba(0,0,0,.6);
+  @media (max-width: 576px) {
+    bottom: 25%;
+  }
+}
