@@ -11,9 +11,17 @@
 }
 
 .home-avatar {
-  position: absolute;
-  top: 0;
-  bottom: 0;
+  height: 285px;
+  border-radius: 50%;
+  background-image: url($images+'/avatar.jpeg');
+  background-size: cover;
+  background-position: 40% 30%;
+}
+
+.mobile-home-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   background-image: url($images+'/avatar.jpeg');
   background-size: cover;
   background-position: 40% 30%;
