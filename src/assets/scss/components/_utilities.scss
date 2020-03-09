@@ -10,3 +10,12 @@ $images: '~@/assets/images/';
   background-size: cover;
   background-position: center center;
 }
+
+.navbar {
+  padding: 5px 10px;
+}
+
+.navbar-brand h1, footer h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}

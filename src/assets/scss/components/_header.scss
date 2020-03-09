@@ -3,7 +3,8 @@
 }
 
 .carousel-caption{
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(165, 222, 228, 0.7);
+  color: $dark;
   @media (max-width: 576px) {
     bottom: 25%;
   }
