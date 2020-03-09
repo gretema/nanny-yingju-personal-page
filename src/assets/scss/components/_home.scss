@@ -9,3 +9,12 @@
     bottom: 25%;
   }
 }
+
+.home-avatar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: url($images+'/avatar.jpeg');
+  background-size: cover;
+  background-position: 40% 30%;
+}

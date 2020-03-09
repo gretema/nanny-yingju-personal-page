@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
       <router-link class="navbar-brand" to="/"><h1>保母乾媽的育花園</h1></router-link>
       <button
         class="navbar-toggler"
