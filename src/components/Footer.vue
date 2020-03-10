@@ -4,12 +4,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h2 class="mb-3">保母乾媽的育花園</h2>
+            <h2 class="mb-3 font-weight-bold">保母乾媽的育花園</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 d-md-flex align-items-md-center">
-            <p class="footer-idea mb-0">
+            <p class="footer-idea font-italic mb-0">
               從事托育工作二十年來，秉持著創新托育的精神，以開闊的視野提供不同於傳統刻板印象的居家托育服務。
             </p>
           </div>
