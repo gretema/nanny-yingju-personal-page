@@ -44,6 +44,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$accent:  #fff6bf !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -68,7 +69,7 @@ $colors: map-merge(
 
 $primary:       #A5DEE4 !default;// $blue !default;
 $secondary:     $gray-600 !default;
-$accent:        #fff6bf !default;
+$accent:        $accent !default;
 $success:       $green !default;
 $info:          #04a2a3 !default;
 $warning:       $yellow !default;
@@ -87,7 +88,8 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "accent":     $accent
   ),
   $theme-colors
 );

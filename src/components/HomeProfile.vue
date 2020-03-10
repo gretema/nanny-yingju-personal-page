@@ -13,7 +13,7 @@
             對托兒視如己出，因此自稱為孩子們的「乾媽」。
             二十餘年專業的居家育兒經驗中，總是持續設計創意活動來引領孩子們學習成長；加上開放、彈性、樂於溝通的特質，相信能帶給您滿意又放心的托育服務。
           </p>
-          <a href="#" class="btn btn-outline-info">了解更多</a>
+          <router-link to="/about" class="btn btn-outline-info">了解更多</router-link>
         </div>
       </div>
       </div>
