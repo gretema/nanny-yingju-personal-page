@@ -19,7 +19,7 @@
                 <i class="fas fa-phone-alt mr-2"></i>0986-698-675
               </p>
               <p class="mb-0">
-                <i class="fas fa-map-marker-alt mr-2"></i>台中市西屯區，近市警局（舊）
+                <i class="fas fa-map-marker-alt mr-2"></i>台中市西屯區，近市政府
               </p>
               <p class="mb-0">
                 <i class="fas fa-clock mr-2"></i>週一至週五 8:00 - 17:30
