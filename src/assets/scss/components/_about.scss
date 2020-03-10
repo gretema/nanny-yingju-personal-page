@@ -1,0 +1,61 @@
+.about-header {
+  height: 300px;
+  padding: 0;
+  background-image: url($images+'/about-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  h2 {
+    background-color: rgba(165,222,228,0.7);
+    width: 600px;
+  }
+}
+
+.timeline-section{
+  position: relative;
+}
+.timeline-section:after{
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0; /* top 跟 bottom 設定軸線的方向 */
+  left: 50%;
+  /* 讓線定位在中央，但是軸線會從左邊 50% 起往右畫 3px，造成軸線偏右 */
+  width: 3px;
+  transform: translateX(-50%);
+  /* transform 是 CSS 的變形方式，其中包含位移，這邊用來修正軸線偏右 */
+  background-color: #ccc; /* 寬度跟顏色把線畫出來 */
+}
+.timeline-pointer{
+  position: relative;
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+.timeline-pointer:after{
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  transform: translateX(-50%);
+  background-color: #fff;
+  z-index: 1;
+}
+@media (max-width: 576px){
+  .timeline-section:after,
+  .timeline-pointer:after,
+  .end-timeline-pointer:before {
+    display: none;
+  }
+}
+.experience-title {
+  letter-spacing: 8px;
+}
