@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import MetaInfo from 'vue-meta-info';
 import 'bootstrap';
+import 'animate';
+import WOW from 'wowjs';
 
 import App from './App.vue';
 import router from './router';
@@ -13,3 +15,4 @@ new Vue({
 }).$mount('#app');
 
 Vue.use(MetaInfo);
+new WOW({ live: false }).init();
