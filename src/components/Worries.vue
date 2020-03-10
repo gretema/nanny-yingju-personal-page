@@ -24,7 +24,7 @@
       <div class="row d-flex align-items-center justify-content-center">
         <div class="col-md-2 nanny-kids-img d-none d-md-block"></div>
         <div class="col-md-6 w-solution my-4 my-md-0 text-center rounded-pill py-1">
-          <span class="d-inline-block d-md-inline">保母張瑛如</span>
+          <span class="d-inline-block d-md-inline font-weight-bold">保母張瑛如</span>
           <span class="d-inline-block d-md-inline">是您最佳的選擇！</span>
         </div>
       </div>

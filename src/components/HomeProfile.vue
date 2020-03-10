@@ -8,7 +8,7 @@
         <div class="col-md-3 home-avatar"></div>
         <!--桌機版簡介與按鈕-->
         <div class="col-md-7 py-3">
-          <h3>張瑛如</h3>
+          <h2 class="font-weight-bold">張瑛如</h2>
           <p>
             對托兒視如己出，因此自稱為孩子們的「乾媽」。
             二十餘年專業的居家育兒經驗中，總是持續設計創意活動來引領孩子們學習成長；加上開放、彈性、樂於溝通的特質，相信能帶給您滿意又放心的托育服務。
@@ -22,7 +22,7 @@
           <!--行動版姓名與照片-->
           <div class="row d-flex align-items-center mb-2">
             <div class="col">
-              <h2>張瑛如</h2>
+              <h2 class="font-weight-bold">張瑛如</h2>
             </div>
             <div class="col d-flex justify-content-end">
               <div class="mobile-home-avatar"></div>

@@ -3,7 +3,7 @@
     <!--三欄式-->
     <section class="bg-primary py-3 text-dark">
       <div class="container">
-        <h2 class="text-center my-3">托育三大重點</h2>
+        <h2 class="text-center my-3 font-weight-bold">托育三大重點</h2>
         <div class="row my-3">
           <div class="col-md-4">
             <div class="text-center" style="font-size: 3rem;">
