@@ -1,10 +1,17 @@
+// 思源黑體
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,900&display=swap&subset=chinese-traditional');
+
 $font-family: 
-/*1. 指定已知的系統 UI 字體*/ "YuGothic", "Yu Gothic",
+  /*1. 指定已知的系統 UI 字體*/ 'Noto Sans TC',
   "Microsoft JhengHei", "Segoe UI", "Roboto", "Helvetica Neue", Arial,
   /*2. 系統預設字體*/ -apple-system, BlinkMacSystemFont,
   /*3. 備援字體*/ sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
 $images: '~@/assets/images/';
+
+*, html, body {
+  font-family: $font-family;
+}
 
 .bg-cover {
   background-size: cover;

@@ -5,8 +5,16 @@
 .carousel-caption{
   background-color: rgba(165, 222, 228, 0.7);
   color: $dark;
-  @media (max-width: 576px) {
-    bottom: 25%;
+  bottom: 40%;
+  @media (max-width: 575px) and (min-width: 375px) {
+    bottom: 35%;
+  }
+}
+
+.carousel-item-text {
+  letter-spacing: 5px;
+  @media (max-width: 575px) and (min-width: 375px) {
+    font-size: 26px;
   }
 }
 
