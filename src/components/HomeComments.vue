@@ -2,7 +2,7 @@
   <div>
     <section class="container my-3">
       <div class="row row d-flex flex-md-column align-items-center">
-        <div class="col-12">
+        <div class="col-12 wow slideInUp" data-wow-duration="2s">
           <h2 class="text-center my-3 font-weight-bold">聽聽家長怎麼說</h2>
         </div>
         <div class="col-md-8 pt-md-3">

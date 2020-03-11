@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <HomeHeader/>
-    <WorriesSection class="wow slideInUp" />
+    <WorriesSection class="wow slideInUp"/>
     <HomeProfile/>
     <ThreePoints/>
     <Comments/>
