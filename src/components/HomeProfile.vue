@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="container-fluid bg-light">
+    <section class="bg-primary">
       <!--桌機版-->
       <div class="container py-3 d-none d-md-block">
         <div class="row d-flex align-items-center justify-content-around">
@@ -13,7 +13,7 @@
             對托兒視如己出，因此自稱為孩子們的「乾媽」。
             二十餘年專業的居家育兒經驗中，總是持續設計創意活動來引領孩子們學習成長；加上開放、彈性、樂於溝通的特質，相信能帶給您滿意又放心的托育服務。
           </p>
-          <router-link to="/about" class="btn btn-outline-info">了解更多</router-link>
+          <router-link to="/about" class="btn btn-accent text-info">了解更多</router-link>
         </div>
       </div>
       </div>

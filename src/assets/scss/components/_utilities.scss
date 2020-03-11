@@ -10,6 +10,7 @@ $font-family:
   /*3. 備援字體*/ sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
 $images: '~@/assets/images/';
+$mobile-h3-size: 26px;
 
 *, html, body {
   font-family: $font-family;

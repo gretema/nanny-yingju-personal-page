@@ -2,8 +2,8 @@
   <div class="home">
     <HomeHeader/>
     <WorriesSection/>
-    <ThreePoints/>
     <HomeProfile/>
+    <ThreePoints/>
     <Comments/>
   </div>
 </template>

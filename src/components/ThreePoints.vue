@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--三欄式-->
-    <section class="bg-primary py-3 text-dark">
+    <section class="bg-light py-3 text-dark">
       <div class="container">
         <h2 class="text-center my-3 font-weight-bold">托育三大重點</h2>
         <div class="row my-3">
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <router-link to="/feature" type="button" class="btn btn-accent btn-lg text-info">
+          <router-link to="/feature" type="button" class="btn btn-outline-info btn-lg">
             更多特色
           </router-link>
         </div>
