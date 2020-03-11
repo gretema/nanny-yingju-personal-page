@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import MetaInfo from 'vue-meta-info';
 import 'bootstrap';
-import 'animate';
-import WOW from 'wowjs';
+import 'animate.css';
+import WOW from 'wow.js';
 
 import App from './App.vue';
 import router from './router';

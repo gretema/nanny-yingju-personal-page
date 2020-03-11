@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="my-3">
+    <section class="container my-3">
       <div class="row row d-flex flex-md-column align-items-center">
         <div class="col-12">
           <h2 class="text-center my-3 font-weight-bold">聽聽家長怎麼說</h2>
