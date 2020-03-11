@@ -58,8 +58,34 @@
 }
 .experience-title {
   letter-spacing: 8px;
+  @media (max-width:576px) and (min-width: 375px) {
+    font-size: $mobile-h2-size;
+  }
 }
 
 .jumbotron h2 {
   letter-spacing: 4px;
+  @media (max-width:576px) and (min-width: 375px) {
+    font-size: $mobile-h2-size;
+    letter-spacing: 6px;
+  }
+}
+
+.timeline-section h4 {
+  @media (max-width:576px) and (min-width: 375px) {
+    font-size: $mobile-h4-size;
+  }
+}
+
+.recognization-section {
+  h3 {
+    @media (max-width:576px) and (min-width: 375px) {
+      font-size: $mobile-h3-size;
+    }
+  }
+  p {
+    @media (max-width:576px) and (min-width: 375px) {
+      font-size: $mobile-p-size;
+    }
+  }
 }

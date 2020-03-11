@@ -8,7 +8,7 @@
         </h2>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid recognization-section">
       <!--靠行的身份-->
       <div class="row py-3 bg-light">
         <div class="col-md-4 text-center">
@@ -69,7 +69,7 @@
         </div>
         <div class="row my-3 flex-sm-row-reverse timeline-pointer">
           <div class="col-sm-6">
-            <h4 class="text-center bg-primary rounded-pill p-2">2016 二度榮獲台中市政府「優質托育人員」表揚</h4>
+            <h4 class="text-center bg-primary rounded-pill p-2">2016 二度榮獲中市府表揚為優質保母</h4>
           </div>
         </div>
         <div class="row my-3 timeline-pointer">
@@ -79,12 +79,13 @@
         </div>
         <div class="row my-3 flex-sm-row-reverse timeline-pointer">
           <div class="col-sm-6">
-            <h4 class="text-center bg-primary rounded-pill p-2">2004 榮獲台中市政府「優質托育人員」表揚</h4>
+            <h4 class="text-center bg-primary rounded-pill p-2">2004 榮獲中市府表揚為優質保母</h4>
           </div>
         </div>
         <div class="row my-3 timeline-pointer">
           <div class="col-sm-6">
-            <h4 class="text-center bg-primary rounded-pill p-2">2003 榮任台中市家扶中心保母聯誼會副會長</h4>
+            <h4 class="text-center bg-primary rounded-pill
+              p-2">2003 榮任台中市家扶中心保母聯誼會<span class="d-block d-md-inline">副會長</span></h4>
           </div>
         </div>
         <div class="row my-3 flex-sm-row-reverse timeline-pointer">
