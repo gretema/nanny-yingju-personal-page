@@ -3,25 +3,25 @@
     <div class="container py-3">
       <!--桌機版-->
       <div class="row d-flex align-items-center justify-content-center
-        wow slideInUp" data-wow-duration="2s" data-wow-delay="2s">
+        wow slideInUp" data-wow-duration="2s">
         <div class="col-md-2 worrying-m-img d-none d-md-block"></div>
         <div class="col-md-5 d-none d-md-block w-safe">安全可靠的保母好難找？</div>
       </div>
       <!--手機版-->
       <div class="row d-md-none d-flex align-items-center wow slideInUp"
-        data-wow-duration="2s" data-wow-delay="2s">
+        data-wow-duration="2s">
         <div class="col worrying-m-img"></div>
         <div class="col w-safe">安全可靠的保母好難找？</div>
       </div>
       <!--桌機版-->
       <div class="row d-flex flex-row-reverse align-items-center
-        justify-content-center wow slideInUp" data-wow-duration="2s" data-wow-delay="2s">
+        justify-content-center wow slideInUp" data-wow-duration="2s">
         <div class="col-md-2 worrying-f-img d-none d-md-block"></div>
         <div class="col-md-5 d-none d-md-block text-right w-oldschool">不喜歡死板的托育模式？</div>
       </div>
       <!--手機版-->
       <div class="row d-md-none d-flex flex-row-reverse align-items-center
-        wow slideInUp" data-wow-duration="2s" data-wow-delay="2s">
+        wow slideInUp" data-wow-duration="2s">
         <div class="col worrying-f-img"></div>
         <div class="col w-oldschool">不喜歡死板的托育模式？</div>
       </div>

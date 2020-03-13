@@ -89,3 +89,70 @@
     }
   }
 }
+
+.environment-section {
+  .environment-imgcontain-height {
+    height: 500px;
+    @media (max-width:576px) and (min-width: 375px) {
+      height: 600px;
+    }
+  }
+  .eating-table-img {
+    height: 100%;
+    background-image: url($images+'/eating-table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    transition: 0.5s;
+  }
+  .living-room-img {
+    height: 100%;
+    background-image: url($images+'/living-room.jpg');
+    margin-bottom: 1%;
+    transition: 0.5s;
+    @media (max-width:576px) and (min-width: 375px) {
+      height: 100%;
+    }
+  }
+  .bed-img {
+    height: 100%;
+    background-image: url($images+'/bed.jpg');
+    background-position: top 40% center;
+    margin-top: 1%;
+    transition: 0.5s;
+    @media (max-width:576px) and (min-width: 375px) {
+      margin-top: 0;
+      height: 100%;
+    }
+  }
+  .environment-right-img-height {
+    height: 100%;
+    @media (max-width:576px) and (min-width: 375px) {
+      height: 400px !important;
+    }
+  }
+  .environment-right-img-box {
+    height: 50%;
+    overflow: hidden;
+    @media (max-width:576px) and (min-width: 375px) {
+      height: 200px !important;
+    }
+  }
+  .environment-left-img-box {
+    overflow: hidden;
+    @media (max-width:576px) and (min-width: 375px) {
+      height: 200px;
+    }
+  }
+  .eating-table-img:hover,
+  .living-room-img:hover,
+  .bed-img:hover {
+    transform: scale(1.1);
+  }
+  .img-inner-text {
+    color: $white;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 4px;
+  }
+}

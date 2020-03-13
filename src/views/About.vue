@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <!--header 首圖-->
     <div class="jumbotron jumbotron-fluid mb-0 about-header d-flex align-items-center">
       <div class="container d-flex justify-content-center">
         <h2 class="display-6 p-3 m-0 text-center rounded font-weight-bold">
@@ -8,8 +9,8 @@
         </h2>
       </div>
     </div>
-    <div class="container-fluid recognization-section">
-      <!--靠行的身份-->
+    <!--家長的保障-->
+    <section class="container-fluid recognization-section mb-5">
       <div class="row py-3 bg-light">
         <div class="col-md-4 text-center">
           <div style="font-size: 3rem;">
@@ -34,9 +35,39 @@
           <p>1997 年迄今專業居家托育資歷。</p>
         </div>
       </div>
-    </div>
-    <div class="container mb-5">
-      <!--經歷時間軸-->
+    </section>
+    <!--托育環境-->
+    <section class="container environment-section mb-5">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center my-3 font-weight-bold experience-title">托育環境</h2>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center environment-imgcontain-height">
+        <div class="col-md-5 environment-left-img-box p-md-0 mr-md-1">
+          <div class="eating-table-img d-flex justify-content-center align-items-center">
+            <h5 class="img-inner-text">閱讀 / 用餐空間</h5>
+          </div>
+        </div>
+        <div class="col-md-5 mt-1 mt-md-0">
+          <div class="row d-flex flex-column environment-right-img-height">
+            <div class="col environment-right-img-box p-md-0 mb-1 mb-md-0">
+              <div class="bg-cover living-room-img
+                d-flex justify-content-center align-items-center">
+                <h5 class="img-inner-text">主要活動空間</h5>
+              </div>
+            </div>
+            <div class="col environment-right-img-box p-md-0">
+              <div class="bg-cover bed-img d-flex justify-content-center align-items-center">
+                <h5 class="img-inner-text">睡眠空間</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--經歷時間軸-->
+    <section class="container mb-5">
       <div class="row">
         <div class="col">
           <h2 class="text-center my-3 font-weight-bold experience-title">特殊經歷</h2>
@@ -94,6 +125,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
