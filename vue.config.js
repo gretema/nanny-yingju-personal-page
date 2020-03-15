@@ -11,7 +11,7 @@ module.exports = {
       config.plugins.push(
         new PrerenderSPAPlugin({
           staticDir: path.join(__dirname, 'dist'),
-          routes: ['/'],
+          routes: ['/', '/about', '/feature', '/faq'],
           renderer: new Renderer({
             headless: false,
             renderAfterTime: 5000,
