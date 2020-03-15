@@ -7,7 +7,7 @@
   background-position: center center;
   h2 {
     background-color: rgba(165, 222, 228, 0.9);
-    // text-shadow: 0 0 0.2em $accent, 0 0 0.2em $accent;
+    text-shadow: 0 0 0.2em $accent;
     letter-spacing: 10px;
     width: 100%;
   }
@@ -31,6 +31,26 @@
 .feature-main .row {
   margin: 20px 0;
   h3 {
+    position: relative;
+    &:before {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      height: 0.6em;
+      top: 0.7em;
+      background: $warning;
+      width: 100%;
+      /* Good browsers */
+      opacity: 0.55;
+      /* IE 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
+      /* IE 5-7 */
+      filter: alpha(opacity=55);
+      /* Netscape */
+      -moz-opacity: 0.55;
+      /* Safari 1.x */
+      -khtml-opacity: 0.55;
+    }
     @media (max-width: 575px) and (min-width: 375px) {
       margin-bottom: 15px;
       font-size: $mobile-h3-size;
