@@ -10,11 +10,13 @@
     letter-spacing: 10px;
     text-align: center;
     color: $white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     
     @media (min-width: 576px) {
       writing-mode: vertical-rl;
       margin-right: -150px;
       border-radius: 0px !important;
+      height: 100%;
     }
   }
 }
