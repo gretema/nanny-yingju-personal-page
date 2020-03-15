@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import MetaInfo from 'vue-meta-info';
 import 'bootstrap';
 import 'animate.css';
 import WOW from 'wow.js';
+import VueMeta from 'vue-meta';
 
 import App from './App.vue';
 import router from './router';
@@ -14,5 +14,9 @@ new Vue({
   render: (h) => h(App),
 }).$mount('#app');
 
-Vue.use(MetaInfo);
 new WOW({ live: false }).init();
+
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true,
+});
