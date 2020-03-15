@@ -1,0 +1,49 @@
+.faq-title {
+  letter-spacing: 8px;
+  color: $dark;
+}
+.qa-item {
+  color: $dark;
+  h3 {
+    font-size: 30px;
+    display: inline-block;
+    transition: 0.3s;
+    position: relative;
+    &:after {
+      content: "";
+      width: 0%;
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-bottom: 0.6em solid $warning;
+      opacity: 0.55;
+      z-index: -1;
+      transition: 0.3s;
+    }
+    @media (max-width: 575px) and (min-width: 375px) {
+      font-size: $mobile-h3-size;
+    }
+  }
+  p {
+    line-height: 1.8;
+    display: none;
+    padding: 15px;
+    background-color: $light;
+  }
+}
+.qa-item h3:hover, .qa-item h3.active{
+  cursor: pointer;
+  position: relative;
+  &:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 0.6em solid $warning;
+    opacity: 0.55;
+    z-index: -1;
+  }
+}

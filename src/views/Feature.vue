@@ -2,10 +2,11 @@
   <div>
     <!--header 首圖-->
     <div class="jumbotron jumbotron-fluid mb-0 feature-header d-flex align-items-center">
-      <div class="container d-flex justify-content-center">
-        <h2 class="p-3 m-0 text-center rounded font-weight-bold">
-          <span class="d-inline-block d-md-inline">跳脫傳統的</span>
-          <span class="d-inline-block d-md-inline">十大托育特色</span>
+      <div class="container header-title-container d-flex
+        justify-content-center justify-content-md-end">
+        <h2 class="p-3 m-0 rounded font-weight-bold">
+          <span class="d-inline-block">跳脫傳統的</span>
+          <span class="d-inline-block">十大托育特色</span>
         </h2>
       </div>
     </div>
