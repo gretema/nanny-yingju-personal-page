@@ -1,0 +1,79 @@
+.feature-header {
+  height: 400px;
+  padding: 0;
+  background-image: url($images+'/feature-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  h2 {
+    background-color: rgba(165, 222, 228, 0.9);
+    // text-shadow: 0 0 0.2em $accent, 0 0 0.2em $accent;
+    letter-spacing: 10px;
+    width: 100%;
+  }
+}
+
+.feature-img-box {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10%;
+  padding: 0;
+  box-shadow: 3px 3px 5px $dark;
+}
+
+.feature-img-item {
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.feature-main .row {
+  margin: 20px 0;
+  h3 {
+    @media (max-width: 575px) and (min-width: 375px) {
+      margin-bottom: 15px;
+      font-size: $mobile-h3-size;
+    }
+  }
+  @media (max-width: 575px) and (min-width: 375px) {
+    flex-direction: column-reverse;
+    margin: 40px 0;
+  }
+}
+
+.self-eating-img {
+  background-image: url($images+'/eat-by-self.jpg');
+}
+.science-acti-img {
+  background-image: url($images+'/science-acti.jpg');
+}
+.painting-acti-img {
+  background-image: url($images+'/painting-acti.jpg');
+  background-position: center 19%;
+}
+.handmade-flowers-img {
+  background-image: url($images+'/handmade-flowers.jpg');
+}
+.fest-acti-img {
+  background-image: url($images+'/fest-acti.jpeg');
+  background-position: center 19%;
+}
+.handmade-album-img {
+  background-image: url($images+'/handmade-album.jpg');
+  background-position: center 19%;
+}
+.cognition-img {
+  background-image: url($images+'/cognition.jpg');
+}
+.special-meal-img {
+  background-image: url($images+'/special-meal.jpg');
+  background-position: center 19%;
+}
+.reading-habit-img {
+  background-image: url($images+'/reading-habit.jpg');
+  background-position: center 20%;
+}
+.big-movement-img {
+  background-image: url($images+'/big-movement.jpg');
+}

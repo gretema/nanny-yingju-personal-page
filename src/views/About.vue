@@ -3,7 +3,7 @@
     <!--header 首圖-->
     <div class="jumbotron jumbotron-fluid mb-0 about-header d-flex align-items-center">
       <div class="container d-flex justify-content-center">
-        <h2 class="display-6 p-3 m-0 text-center rounded font-weight-bold">
+        <h2 class="p-3 m-0 text-center rounded font-weight-bold">
           <span class="d-block d-md-inline">關於張瑛如，</span>
           <span class="d-block d-md-inline">我還想知道...</span>
         </h2>

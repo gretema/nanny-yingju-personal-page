@@ -21,3 +21,11 @@ module.exports = {
     }
   },
 };
+
+module.exports = {
+  devServer: {
+    watchOptions: {
+      poll: true,
+    },
+  },
+};
