@@ -29,3 +29,7 @@ module.exports = {
     },
   },
 };
+
+module.exports = {
+  publicPath: './',
+};
