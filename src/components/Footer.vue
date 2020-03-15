@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h2 class="mb-3 font-weight-bold">保母乾媽的育花園</h2>
+            <h2 class="mb-3 font-weight-bold">
+              <img src="../assets/images/growth.svg" width="32" alt="">
+              保母乾媽的育花園
+            </h2>
           </div>
         </div>
         <div class="row">

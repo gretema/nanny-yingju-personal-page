@@ -3,7 +3,10 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
       <div class="container">
         <router-link class="navbar-brand" to="/">
-          <h1 class="font-weight-bold">保母乾媽的育花園</h1>
+          <h1 class="font-weight-bold">
+            <img src="../assets/images/growth.svg" width="32" alt="">
+            保母乾媽的育花園
+          </h1>
         </router-link>
         <button
           class="navbar-toggler"
