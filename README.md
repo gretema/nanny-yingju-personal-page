@@ -41,6 +41,8 @@
 
 ![Home ThreePoints Section](https://i.imgur.com/3j2XDrB.png)
 
+在「聽聽家長怎麼說」的區塊，家長們的評價也是採用輪播的方式。
+
 ![Footer](https://i.imgur.com/oDwt3iz.png)
 
 在 Footer 嵌入我媽經營的 Facebook 粉絲專頁，增加 SEO 與能見度。
