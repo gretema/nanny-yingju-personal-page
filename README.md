@@ -37,9 +37,11 @@
 
 ![Home Header](https://i.imgur.com/qyObIrW.jpg)
 
-畫面會往下滑動至一定高度時，畫面右下角會出現「回到最上方」按鈕。
+Home Page 的 Header 是三張輪播圖片，圖片來源為 [Unsplash](https://unsplash.com/)。
 
 ![Home Worries Section](https://i.imgur.com/YuwwwNl.jpg)
+
+畫面會往下滑動至一定高度時，畫面右下角會出現「回到最上方」按鈕。
 
 ![Home ThreePoints Section](https://i.imgur.com/3j2XDrB.png)
 
