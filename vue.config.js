@@ -31,5 +31,7 @@ module.exports = {
 };
 
 module.exports = {
-  publicPath: './',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/eric-project/'
+    : '/',
 };
