@@ -24,7 +24,7 @@
 - Bootstrap 4
 - JavaScript（ES6）
 - SCSS
-- ESlint Aribnb
+- ESlint Abnb
 
 ## 使用 Vue-Plugin
 
