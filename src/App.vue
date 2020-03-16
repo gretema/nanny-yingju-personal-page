@@ -3,10 +3,15 @@
     <Navbar />
     <router-view />
     <Footer />
+    <!-- Gotop button -->
+    <button class="gotop-btn" id="gotopBtn" @click="gotop">
+      <i class="fas fa-arrow-up gotop-arrow"></i>
+    </button>
   </div>
 </template>
 
 <script>
+import $ from 'jquery';
 import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 
@@ -15,6 +20,22 @@ export default {
   components: {
     Navbar,
     Footer,
+  },
+  methods: {
+    gotop() {
+      $('html, body').animate({ scrollTop: 0 }, 1500);
+    },
+  },
+  created() {
+    // 偵測頁面往下滑超過 400px 就讓 Gotop 按鈕出現
+    function showBtnCondition() {
+      if ($(this).scrollTop() > 400) {
+        $('#gotopBtn').fadeIn();
+      } else {
+        $('#gotopBtn').fadeOut();
+      }
+    }
+    $(window).scroll(showBtnCondition);
   },
   metaInfo: {
     title: '保母乾媽的育花園 | 台中市最佳的托育選擇',
