@@ -5,8 +5,6 @@
 
 ![DemoImg](https://i.imgur.com/qyObIrW.jpg)
 
-
-
 ## 網址
 
 <https://nanny-yingju.com/>
@@ -37,19 +35,15 @@
 
 ![Home Header](https://i.imgur.com/qyObIrW.jpg)
 
-Home Page 的 Header 是三張輪播圖片，圖片來源為 [Unsplash](https://unsplash.com/)。
+畫面會往下滑動至一定高度時，畫面右下角會出現「回到最上方」按鈕。
 
 ![Home Worries Section](https://i.imgur.com/YuwwwNl.jpg)
-
-畫面會往下滑動至一定高度時，畫面右下角會出現「回到最上方」按鈕。
 
 ![Home ThreePoints Section](https://i.imgur.com/3j2XDrB.png)
 
 ![Footer](https://i.imgur.com/oDwt3iz.png)
 
 在 Footer 嵌入我媽經營的 Facebook 粉絲專頁，增加 SEO 與能見度。
-
-
 
 ### About Page
 
@@ -60,8 +54,6 @@ Home Page 的 Header 是三張輪播圖片，圖片來源為 [Unsplash](https://
 ![Exp](https://i.imgur.com/iGNUccl.png)
 
 「托育環境」中的圖片，hover 時會動態 zoom in；「特殊經歷」以時間軸呈現各個時間點的經歷。
-
-
 
 ### Feature Page
 
