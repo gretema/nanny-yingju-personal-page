@@ -22,7 +22,7 @@
 - Bootstrap 4
 - JavaScript（ES6）
 - SCSS
-- ESlint Aribnb
+- ESlint Airbnb
 
 ## 使用 Vue-Plugin
 
