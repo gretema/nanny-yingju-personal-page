@@ -25,7 +25,7 @@
             <i class="fas fa-address-card text-info"></i>
           </div>
           <h3>受政府管理？</h3>
-          <p>隸屬台中市第二區社區保母系統管理。</p>
+          <p>隸屬台中市第二區居家托育服務中心管理。</p>
         </div>
         <div class="col-md-4 text-center">
           <div style="font-size: 3rem;">
